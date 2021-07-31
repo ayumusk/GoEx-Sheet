@@ -1,6 +1,6 @@
 # GoEx-Sheet
 ## Overview ##
-This is an excel clone. It has various features that an excel has like create a new file, save, open, clear.We can give the styling and implement formula at various cells.
+This is an excel clone. It has various features that an excel has like create a new file, save, open, clear. We can give the styling and implement formula at various cells.
 
 ## Features
 This is a simple web application made with HTML, CSS and Vanilla JavaScript and using browsers localstorage to store the data.
