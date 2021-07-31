@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap" rel="stylesheet">
+    <link
+    href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet"
+  />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="title">
+            <input id="name" type="text" value="Untitled Spreadsheet">
+        </div>
+        <div class="options">
+            <div class="file">File</div>
+            <div class="edit">Edit</div>
+            <div class="view">View</div>
+            <div class="insert">Insert</div>
+            <div class="format">Format</div>
+            <div class="data">Data</div>
+            <div class="tools">Tools</div>
+            <div class="addons">Addons</div>
+            <div class="help">Help</div>
+        </div>
+        <div class="formula">
+                <select id="font" class="font">
+                    <option value="arial">Arial</option>
+                    <option value="Garamond">Garamond</option>
+                    <option value='Courier New'>Courier New</option>
+                    <option value='Brush Script MT'>Brush Script MT</option>
+                  </select>
+            
+           
+                <select id="fontsize" class="fontsize">
+                    <option value="10">10</option>
+                    <option value="12">12</option>
+                    <option value="14">14</option>
+                    <option value="18">18</option>
+                    <option value="24">24</option>
+                    <option value="36">36</option>
+                  </select>
+            
+             <div class="bold">
+                <span class="material-icons"> format_bold </span>
+             </div>
+             <div class="italics">
+                <span class="material-icons"> format_italic </span>
+             </div>
+             <div class="underlined">
+             <span class="material-icons"> format_underlined</span>
+             </div>
+            <div class="textcolor">
+                <span class="material-icons">format_color_text </span>
+            </div>
+            <div class="color">
+                <span class="material-icons">  format_color_fill</span>
+            </div>
+            <div class="center">
+                <span class="material-icons"> format_align_center</span>
+            </div>
+             <div class="left">
+                <span class="material-icons">  format_align_left </span>
+             </div>
+            <div class="right">
+                <span class="material-icons"> format_align_right </span>
+            </div>
+                
+           
+        </div>
+        <div class="form">
+            <div class="celladdress" contenteditable></div>
+            <div class="formula-icon">
+                <span class="material-icons">
+                    functions
+                    </span>
+            </div>
+            <div class="formula-input">
+                <input class="formula-input-tag">
+            </div>
+        </div>
+        <div class="grid">
+            <div class="blank-corner"></div>
+            <div class="column-tags"></div>
+            
+            <div class="row-tags"></div>
+        </div>
+        <div class="sheets-bar">
+            <div>Sheets - 1</div>
+          </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="style.js"></script>
+</body>
+</html>
